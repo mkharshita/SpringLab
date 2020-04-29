@@ -1,0 +1,38 @@
+2020-04-25 00:55:05 DEBUG AnnotationConfigApplicationContext:594 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7e0b37bc
+2020-04-25 00:55:05 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-04-25 00:55:05 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [G:\CapG\Module3\Labbook1.2\target\classes\com\cg\labbook1\bean\Employee.class]
+2020-04-25 00:55:05 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [G:\CapG\Module3\Labbook1.2\target\classes\com\cg\labbook1\dao\DaoImp.class]
+2020-04-25 00:55:05 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [G:\CapG\Module3\Labbook1.2\target\classes\com\cg\labbook1\service\ServiceImp.class]
+2020-04-25 00:55:05 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-04-25 00:55:05 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-04-25 00:55:05 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-04-25 00:55:05 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-04-25 00:55:05 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'javaConfig'
+2020-04-25 00:55:05 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'employee'
+2020-04-25 00:55:05 DEBUG PropertySourcesPropertyResolver:115 - Found key 'employeeId' in PropertySource 'class path resource [info.properties]' with value of type String
+2020-04-25 00:55:05 DEBUG PropertySourcesPropertyResolver:115 - Found key 'employeeName' in PropertySource 'class path resource [info.properties]' with value of type String
+2020-04-25 00:55:05 DEBUG PropertySourcesPropertyResolver:115 - Found key 'salary' in PropertySource 'class path resource [info.properties]' with value of type String
+2020-04-25 00:55:05 DEBUG PropertySourcesPropertyResolver:115 - Found key 'age' in PropertySource 'class path resource [info.properties]' with value of type String
+2020-04-25 00:55:05 WARN  AnnotationConfigApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employee': Unsatisfied dependency expressed through field 'sbu'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cg.labbook1.bean.SBU' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-04-25 00:55:59 DEBUG AnnotationConfigApplicationContext:594 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7e0b37bc
+2020-04-25 00:55:59 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-04-25 00:55:59 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [G:\CapG\Module3\Labbook1.2\target\classes\com\cg\labbook1\bean\Employee.class]
+2020-04-25 00:55:59 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [G:\CapG\Module3\Labbook1.2\target\classes\com\cg\labbook1\bean\SBU.class]
+2020-04-25 00:55:59 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [G:\CapG\Module3\Labbook1.2\target\classes\com\cg\labbook1\dao\DaoImp.class]
+2020-04-25 00:55:59 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [G:\CapG\Module3\Labbook1.2\target\classes\com\cg\labbook1\service\ServiceImp.class]
+2020-04-25 00:56:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-04-25 00:56:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-04-25 00:56:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-04-25 00:56:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-04-25 00:56:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'javaConfig'
+2020-04-25 00:56:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'employee'
+2020-04-25 00:56:00 DEBUG PropertySourcesPropertyResolver:115 - Found key 'employeeId' in PropertySource 'class path resource [info.properties]' with value of type String
+2020-04-25 00:56:00 DEBUG PropertySourcesPropertyResolver:115 - Found key 'employeeName' in PropertySource 'class path resource [info.properties]' with value of type String
+2020-04-25 00:56:00 DEBUG PropertySourcesPropertyResolver:115 - Found key 'salary' in PropertySource 'class path resource [info.properties]' with value of type String
+2020-04-25 00:56:00 DEBUG PropertySourcesPropertyResolver:115 - Found key 'age' in PropertySource 'class path resource [info.properties]' with value of type String
+2020-04-25 00:56:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'SBU'
+2020-04-25 00:56:00 DEBUG PropertySourcesPropertyResolver:115 - Found key 'subId' in PropertySource 'class path resource [info.properties]' with value of type String
+2020-04-25 00:56:00 DEBUG PropertySourcesPropertyResolver:115 - Found key 'subName' in PropertySource 'class path resource [info.properties]' with value of type String
+2020-04-25 00:56:00 DEBUG PropertySourcesPropertyResolver:115 - Found key 'subHead' in PropertySource 'class path resource [info.properties]' with value of type String
+2020-04-25 00:56:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'daoImp'
+2020-04-25 00:56:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'serviceImp'
